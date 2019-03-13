@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet');
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.active{
+  background-color:#339966;
+}
+nav{
+  background-color:#66CCFF;
+  text-align: center;
+}
+nav ul li {
+  display: inline-block;
+  list-style: none;
+}
+nav ul li a{
+  display: inline-block;
+  padding: 15px 20px;
+  text-decoration: none;
+  color: rebeccapurple;
+  font-family: 'Merriweather', serif;
+  font-size: 22px;
+}
+
+/*primera pagina*/
+.inicio div{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+    width: 150px;
+    height: 150px;
+    background-color:red;
+    transition: all 2s linear;
+ 
+  }
+ 
+  .inicio div:hover {
+
+background-color:purple;
+width: 200px;
+height: 200px;
+
+  }
+
+
+/*primera dos*/
+ main{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+    width: 150px;
+    height: 150px;
+    background-color:blue;
+    transition-property: width,height,background-color,border ; 
+    transition-duration: 1s;
+    transition-delay: 0s, 1s , 1.5s , 1.5s;
+ 
+  }
+ 
+ main:hover {
+  width: 200px;
+  height: 200px;
+background-color:rgb(0, 128, 75);
+border: solid 10px yellow;
+
+
+  }
+
+/*primera tres*/
+aside{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+    width: 150px;
+    height: 150px;
+    background-color:green;
+    transition: all 2s linear;
+ 
+  }
+  aside div{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+      width: 50px;
+      height: 50px;
+      background-color:blue;
+      transition: all 2s linear;
+   
+    }
+   
+ 
+  aside:hover {
+
+background-color:orange;
+width: 200px;
+height: 200px;
+
+  }
+  aside div:hover {
+
+    background-color:red;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    
+      }
+    
+
+/*primera cuatro*/
+article{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+    width: 150px;
+    height: 150px;
+    background-color:rgb(52, 140, 146);
+    transition-property: width,height,background-color,border ; 
+    transition-duration: 1s;
+    transition-delay: 0s, 1s , 1.5s , 1.5s;
+ 
+  }
+ 
+ article:hover {
+  width: 200px;
+  height: 200px;
+background-color:rgb(153, 203, 212);
+
+
+
+  }
+  article ::selection:hover {
+
+    background-color:red;
+    width: 100px;
+    height: 100px;
+   
+    
+      }
